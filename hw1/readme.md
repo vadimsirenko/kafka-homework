@@ -41,7 +41,7 @@ docker-compose create
 docker-compose up
 ~~~
 
-![docker](/imgs/docker.png)
+![docker](./imgs/docker.png)
     
 
 <li> Создаём тему</li>
@@ -61,7 +61,7 @@ docker-compose up
    Topic: quickstart       TopicId: MFDPqZTSQbKDSrDpFxindA PartitionCount: 1       ReplicationFactor: 1    Configs:
         Topic: quickstart       Partition: 0    Leader: 1       Replicas: 1     Isr: 1   
 ~~~
-![docker](/imgs/docker_create.png)
+![docker](./imgs/docker_create.png)
 
 <li> Запишем что-нибудь в тему</li>
 
@@ -71,7 +71,7 @@ docker-compose up
    This is my second event
 ~~~
 
-![docker](/imgs/docker_send.png)
+![docker](./imgs/docker_send.png)
 
 
 <li> Прочитаем записи</li>
@@ -81,6 +81,6 @@ docker-compose up
    This is my first event
    This is my second event
 ~~~
-![docker](/imgs/docker_recive.png)
+![docker](./imgs/docker_recive.png)
 
 </ol>
